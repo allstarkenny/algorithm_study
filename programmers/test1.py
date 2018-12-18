@@ -21,9 +21,21 @@ def solution(participant, completion):
     # remove 함수의 경우 O(n)의 복잡도를 가지고 있어서 효율성 테스트에서 떨어짐
     # for completion_data in completion:
     #     participant.remove(completion_data)
+    participant_dict = {}
     for participant_data in participant:
-        if participant_data not in completion:
-            return participant_data
+        if participant_data not in participant_dict.keys():
+            participant_dict[participant_data] = 1
+        else:
+            participant_dict[participant_data] += 1
+
+    for completion_data in completion:
+        if completion_data in participant_dict.keys():
+            participant_dict[completion_data] -= 1
+            if participant_dict[completion_data] == 0:
+                del(participant_dict[completion_data])
+
+    for name in participant_dict.keys():
+        return name
 
 
 participant = [["leo", "kiki", "eden"], ["marina", "josipa", "nikola", "vinko", "filipa"], ["mislav", "stanko", "mislav", "ana"]]
