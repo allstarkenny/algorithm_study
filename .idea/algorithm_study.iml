@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="kenny_test" />
+    <orderEntry type="module" module-name="codingTest" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

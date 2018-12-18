@@ -17,12 +17,13 @@
 
 
 def solution(participant, completion):
-    answer = ''
-    for completion_data in completion:
-        participant.remove(completion_data)
-    if len(participant) > 0:
-        answer = participant[0]
-    return answer
+
+    # remove 함수의 경우 O(n)의 복잡도를 가지고 있어서 효율성 테스트에서 떨어짐
+    # for completion_data in completion:
+    #     participant.remove(completion_data)
+    for participant_data in participant:
+        if participant_data not in completion:
+            return participant_data
 
 
 participant = [["leo", "kiki", "eden"], ["marina", "josipa", "nikola", "vinko", "filipa"], ["mislav", "stanko", "mislav", "ana"]]
