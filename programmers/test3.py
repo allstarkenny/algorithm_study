@@ -15,7 +15,10 @@
 def solution(n, lost, reserve):
     lost_tmp = lost.copy()
     for l_index in lost:
-        if l_index - 1 in reserve:
+        if l_index in reserve:
+            lost_tmp.remove(l_index)
+            reserve.remove(l_index)
+        elif l_index - 1 in reserve:
             lost_tmp.remove(l_index)
             reserve.remove(l_index - 1)
         elif l_index + 1 in reserve:
