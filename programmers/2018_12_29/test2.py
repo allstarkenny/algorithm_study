@@ -19,10 +19,7 @@ def solution(array, commands):
     answer = []
     for command in commands:
         i, j, k = command
-        local_array = array[i-1:j]
-        local_array.sort()
-        answer.append(local_array[k-1])
-
+        answer.append(array[i-1:j].sort()[k-1])
     return answer
 #   return list(map(lambda x:sorted(array[x[0]-1:x[1]])[x[2]-1], commands))
 

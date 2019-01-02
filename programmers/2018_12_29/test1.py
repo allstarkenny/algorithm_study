@@ -43,6 +43,7 @@ n_list = [5, 2, 5, 5, 5, 5]
 number_list = [12, 11, 31168, 25, 23, 27]
 return_list = [4, 3, -1, 2, 5, 5]
 
+
 for i in range(len(n_list)):
     if solution(n_list[i], number_list[i]) == return_list[i]:
         print('case {} pass --------------'.format(str(i + 1)))
