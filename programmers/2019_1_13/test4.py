@@ -15,17 +15,11 @@ def solution(n):
 
 def check_prime(n):
     if n == 2: return True
-    if n in (2, 3): return True
-    if n % 2 == 0 or n % 3 == 0: return False
-    if n < 9: return True
-
-    k, l = 5, n ** 0.5
-
-    while k <= l:
-        if n % k == 0 or n % (k + 2) == 0:
+    if n % 2 == 0: return False
+    l = round(n ** 0.5) + 1
+    for i in range(3, l, 2):
+        if n % i == 0:
             return False
-        k += 6
-
     return True
 
 #     num=set(range(2,n+1))
