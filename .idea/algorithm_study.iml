@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="kenny_test" />
     <orderEntry type="module" module-name="codingTest" />
+    <orderEntry type="module" module-name="kenny_test2" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

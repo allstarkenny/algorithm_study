@@ -13,29 +13,32 @@
 
 
 def solution(strings, n):
-    answer = []
-    test_dict = {}
-    for s in strings:
-        if s[n] in test_dict.keys():
-            test_dict[s[n]].append(s)
-            test_dict[s[n]].sort()
-        else:
-            test_dict[s[n]] = [s]
-
-    key_list = list(test_dict.keys())
-    key_list.sort()
-
-    for k in key_list:
-        print(k)
-        for i_k in test_dict[k]:
-            answer.append(i_k)
-    return answer
-
-#   return sorted(strings, key=lambda x: x[n])
+    # answer = []
+    # test_dict = {}
+    # for s in strings:
+    #     if s[n] in test_dict.keys():
+    #         test_dict[s[n]].append(s)
+    #         test_dict[s[n]].sort()
+    #     else:
+    #         test_dict[s[n]] = [s]
+    # print(test_dict)
+    # key_list = list(test_dict.keys())
+    # key_list.sort()
+    # print(key_list)
+    #
+    # for k in key_list:
+    #     for i_k in test_dict[k]:
+    #         answer.append(i_k)
+    # return answer
+    print(sorted(sorted(strings), key=lambda x: x[n]))
+    return sorted(sorted(strings), key=lambda x: x[n])
+# lambda x : x[n]
+# def test(x):
+#     return x[n]
 
 arr = [['sun', 'bed', 'car'],['abce', 'abcd', 'cdx']]
 divisor = [1, 2]
-return_list = [['car, bed, sun'], ['abcd', 'abce', 'cdx']]
+return_list = [['car', 'bed', 'sun'], ['abcd', 'abce', 'cdx']]
 
 for i in range(len(arr)):
     if solution(arr[i], divisor[i]) == return_list[i]:
