@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62088b92-2ce2-4491-a626-e0bee556cdad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/programmers/2019_1_20/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/2019_1_20/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/2019_1_20/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/2019_1_20/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/2019_1_20/test5.py" afterDir="false" />
       <change beforePath="$USER_HOME$/kenny_test/loadbalancer/load_balancer.py" beforeDir="false" afterPath="$USER_HOME$/kenny_test/loadbalancer/load_balancer.py" afterDir="false" />
       <change beforePath="$USER_HOME$/kenny_test/worker/worker.py" beforeDir="false" afterPath="$USER_HOME$/kenny_test/worker/worker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/2019_1_13/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/2019_1_13/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programmers/2019_1_13/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/2019_1_13/test4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,35 +23,36 @@
     <session id="-1064965483">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="64" />
+          <entry key="py" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="64" />
+          <entry key="Python" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="14676" />
+          <entry key="py" value="15798" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="14676" />
+          <entry key="Python" value="15798" />
         </counts>
       </usages-collector>
     </session>
@@ -53,52 +60,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test1.py">
+        <entry file="file://$PROJECT_DIR$/programmers/2019_1_20/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+            <state relative-caret-position="315">
+              <caret line="25" selection-start-line="25" selection-end-line="32" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test2.py">
+        <entry file="file://$PROJECT_DIR$/programmers/2019_1_20/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="256">
+              <caret line="32" selection-start-line="32" selection-end-line="40" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test3.py">
+        <entry file="file://$PROJECT_DIR$/programmers/2019_1_20/test3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="240">
+              <caret line="28" selection-start-line="28" selection-end-line="35" selection-end-column="63" />
+              <folding>
+                <marker date="1547894351134" expanded="true" signature="437:532" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/programmers/2019_1_20/test4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" selection-start-line="22" selection-end-line="29" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test4.py">
+        <entry file="file://$PROJECT_DIR$/programmers/2019_1_20/test5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-              <folding>
-                <marker date="1547336564071" expanded="true" signature="295:671" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding>
-                <marker date="1547311120555" expanded="true" signature="166:171" ph="..." />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -150,11 +154,16 @@
         <option value="$PROJECT_DIR$/programmers/2019_1_6/test4.py" />
         <option value="$USER_HOME$/kenny_test2/kenny_test/EtcModule/Database_server/datastoreDAO.py" />
         <option value="$USER_HOME$/kenny_test2/kenny_test/EtcModule/Database_server/prodInfoDAO.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_1_13/test2.py" />
         <option value="$PROJECT_DIR$/programmers/2019_1_13/test3.py" />
         <option value="$PROJECT_DIR$/programmers/2019_1_13/test5.py" />
         <option value="$PROJECT_DIR$/programmers/2019_1_13/test1.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_1_13/test2.py" />
         <option value="$PROJECT_DIR$/programmers/2019_1_13/test4.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_1_20/test1.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_1_20/test2.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_1_20/test3.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_1_20/test4.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_1_20/test5.py" />
       </list>
     </option>
   </component>
@@ -201,19 +210,13 @@
               <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
               <item name="programmers" type="462c0819:PsiDirectoryNode" />
-              <item name="2018_12_29" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
-              <item name="2019_1_6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
               <item name="2019_1_13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
+              <item name="programmers" type="462c0819:PsiDirectoryNode" />
+              <item name="2019_1_20" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -456,44 +459,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <marker date="1547340302448" expanded="true" signature="296:624" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="438">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="17" selection-end-line="26" selection-end-column="7" />
           <folding>
             <marker date="1547311120555" expanded="true" signature="166:171" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test1.py">
+    <entry file="file://$PROJECT_DIR$/programmers/2019_1_20/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        <state relative-caret-position="256">
+          <caret line="32" selection-start-line="32" selection-end-line="40" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test2.py">
+    <entry file="file://$PROJECT_DIR$/programmers/2019_1_20/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="315">
+          <caret line="25" selection-start-line="25" selection-end-line="32" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test3.py">
+    <entry file="file://$PROJECT_DIR$/programmers/2019_1_20/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="28" selection-start-line="28" selection-end-line="35" selection-end-column="63" />
           <folding>
-            <marker date="1547336564071" expanded="true" signature="295:671" ph="..." />
+            <marker date="1547894351134" expanded="true" signature="437:532" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_1_20/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" selection-start-line="22" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_1_20/test5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
