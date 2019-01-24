@@ -22,9 +22,9 @@ def solution(s, n):
     for c in s:
         if c in small_char_list:
             answer += small_char_list[(small_char_list.index(c) + n) % 26]
-        if c in big_char_list:
+        elif c in big_char_list:
             answer += big_char_list[(big_char_list.index(c) + n) % 26]
-        if ' ' == c:
+        else:
             answer += c
 
     return answer

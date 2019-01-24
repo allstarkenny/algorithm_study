@@ -11,17 +11,18 @@
 
 def solution(s):
     answer = ''
-
+    print(s.split(' '))
     for word in s.split(' '):
         for idx, w in enumerate(word):
             answer += w.upper() if idx % 2 == 0 else w.lower()
         answer += ' '
+    print(answer)
     return answer[:-1]
 
 # return ' '.join([''.join([c.upper() if i % 2 == 0 else c.lower() for i, c in enumerate(w)]) for w in s.split()])
 
-arr = ['try hello world']
-return_list = ['TrY HeLlO WoRlD']
+arr = ['try hello   world   ']
+return_list = ['TrY HeLlO   WoRlD   ']
 
 for i in range(len(arr)):
     if solution(arr[i]) == return_list[i]:

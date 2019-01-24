@@ -4,20 +4,20 @@
 # 제한 사항
 # n은 0 이상 3000이하인 자연수입니다.
 
-def solution(n):
-    answer = 0
-
-    n_half = n // 2 + n % 2
-    n_list = []
-
-    for i in range(1, n_half):
-        if i not in n_list and n % i == 0:
-            answer += i
-            n_list.append(i)
-            answer += n // i
-            n_list.append(n//i)
-    print(answer)
-    return answer
+# def solution(n):
+#     answer = 0
+#
+#     n_half = n // 2 + n % 2
+#     n_list = []
+#
+#     for i in range(1, n_half):
+#         if i not in n_list and n % i == 0:
+#             answer += i
+#             n_list.append(i)
+#             answer += n // i
+#             n_list.append(n//i)
+#     print(answer)
+#     return answer
 
 def solution2(n):
     answer = 0

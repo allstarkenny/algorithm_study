@@ -20,8 +20,8 @@ def solution(s):
 #             result *= -1
 #         else:
 #             result += num_list.index(number) * (10 ** idx)
-
-    return result
+#
+#     return result
 
 arr = ['3123', '-4321']
 return_list = [3123, -4321]
