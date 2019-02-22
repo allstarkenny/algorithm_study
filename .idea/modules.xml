@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/algorithm_study.iml" filepath="$PROJECT_DIR$/.idea/algorithm_study.iml" />
       <module fileurl="file://$PROJECT_DIR$/../codingTest/.idea/codingTest.iml" filepath="$PROJECT_DIR$/../codingTest/.idea/codingTest.iml" />
+      <module fileurl="file://$USER_HOME$/googleCloudSource/.idea/googleCloudSource.iml" filepath="$USER_HOME$/googleCloudSource/.idea/googleCloudSource.iml" />
       <module fileurl="file://$USER_HOME$/kenny_test/.idea/kenny_test.iml" filepath="$USER_HOME$/kenny_test/.idea/kenny_test.iml" />
       <module fileurl="file://$USER_HOME$/kenny_test2/.idea/kenny_test2.iml" filepath="$USER_HOME$/kenny_test2/.idea/kenny_test2.iml" />
     </modules>
