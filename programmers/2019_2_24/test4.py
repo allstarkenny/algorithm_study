@@ -28,28 +28,27 @@ def solution(name):
     answer = 0
     screen_data = ['A' for _ in range(len(name))]
     for i in range(len(name)):
-        # print(screen_data)
+        print(screen_data)
         answer += count_alpha(name[i])
-        answer += 1
         screen_data[i] = name[i]
         if name == ''.join(screen_data):
             break
+        answer += 1
     # print(answer)
     back_answer = 0
     screen_data = ['A' for _ in range(len(name))]
     for i in range(0, -len(name), -1):
-        # print(screen_data)
+        print(screen_data)
         back_answer += count_alpha(name[i])
-        back_answer += 1
         screen_data[i] = name[i]
         if name == ''.join(screen_data):
             break
+        back_answer += 1
     # print(back_answer)
 
     if answer > back_answer:
         answer = back_answer
-    # print(answer - 1)
-    return answer - 1
+    return answer
 
 def count_alpha(charactor):
     alpha = ['A', 'B', 'C', 'D', 'E', 'F', 'G',

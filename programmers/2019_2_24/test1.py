@@ -34,6 +34,7 @@
 def solution(arrangement):
     answer = 0
     arr_test = arrangement.replace('()', '|')
+    print(arr_test)
     stack = []
     for arr in arr_test:
         if arr == ')':

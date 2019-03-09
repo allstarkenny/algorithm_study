@@ -52,14 +52,43 @@ def solution(scoville, K):
         heapq.heappush(heap_list, scovil)
     return answer
 
+def solution2(scoville, K):
+    answer = 0
+    scovil= 0
+    while scovil < K:
+        scoville.sort(reverse=True)
+        min1 = scoville.pop()
+        min2 = scoville.pop()
+        scovil = min1 + min2 * 2
+        answer += 1
+        scoville.append(scovil)
+        if len(scoville) < 2:
+            answer = -1
+            break
 
-arr1 = [[1, 2, 3, 9, 10, 12],[3, 3, 3, 6, 7, 8]]
-arr2 = [7, 30]
-return_list = [2, 2]
+    return answer
+
+def solution3(scoville, K):
+    heapq.heapify(scoville)
+    cnt = 0
+    while scoville[0] < K:
+        a = heapq.heappop(scoville)
+        b = heapq.heappop(scoville)
+        newK = a + b * 2
+        heapq.heappush(scoville, newK)
+        cnt += 1
+        if len(scoville) < 2:
+            cnt = -1
+            break
+    return cnt
+
+arr1 = [[1, 2, 3, 9, 10, 12]]
+arr2 = [7]
+return_list = [2]
 for i in range(len(arr1)):
-    if solution(arr1[i], arr2[i]) == return_list[i]:
+    if solution3(arr1[i], arr2[i]) == return_list[i]:
         print('case {} pass --------------'.format(str(i + 1)))
     else:
         print('case {} fail --------------'.format(str(i + 1)))
 
-# 45 min x
+# 45 min x 10 min

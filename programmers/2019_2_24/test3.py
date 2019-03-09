@@ -14,7 +14,6 @@
 def solution(number, k):
     num_list = list(number)
     for _ in range(k):
-        before_num = 0
         frist_num = int(''.join(num_list[:0]) + ''.join(num_list[1:]))
         for i in range(1, len(num_list)):
             second_num = int(''.join(num_list[:i]) + ''.join(num_list[i+1:]))
@@ -31,12 +30,27 @@ def solution(number, k):
     print(''.join(num_list))
     return ''.join(num_list)
 
+def solution2(number, k):
+    answer_queue = []
+
+    for n in number:
+        print('{}, {}'.format(n, answer_queue))
+        if len(answer_queue) > 0 and k > 0:
+            while int(answer_queue[-1]) < int(n):
+                answer_queue.pop()
+                k -= 1
+            answer_queue.append(n)
+        else:
+            answer_queue.append(n)
+    print(answer_queue)
+    print(''.join(answer_queue))
+    return ''.join(answer_queue)
 
 arr1 = ['1924', '1231234', '4177252841', '9876']
 arr2 = [2,3,4, 2]
 return_list = ['94', '3234', '775841', '98']
 for i in range(len(arr1)):
-    if solution(arr1[i], arr2[i]) == return_list[i]:
+    if solution2(arr1[i], arr2[i]) == return_list[i]:
         print('case {} pass --------------'.format(str(i + 1)))
     else:
         print('case {} fail --------------'.format(str(i + 1)))

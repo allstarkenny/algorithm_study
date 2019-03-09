@@ -46,8 +46,6 @@ def solution(priorities, location):
             if location == 0:
                 break
             location -=1
-            if location < 0:
-                location = len(priorities) -1
         else:
             location -= 1
             if location < 0:
