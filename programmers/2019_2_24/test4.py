@@ -63,8 +63,8 @@ def count_alpha(charactor):
     return index
 
 
-arr1 = ['JEROEN', 'JAN']
-return_list = [56, 23]
+arr1 = ['JEROEN', 'JAN', 'AA']
+return_list = [56, 23, 0]
 for i in range(len(arr1)):
     if solution(arr1[i]) == return_list[i]:
         print('case {} pass --------------'.format(str(i + 1)))

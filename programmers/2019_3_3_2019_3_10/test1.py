@@ -34,11 +34,12 @@ def solution2(numbers):
     digits = list(numbers)
 
     for i in range(1, len(numbers) + 1):
-        # print(*permutations(digits, i))
-        candidates += [*list(permutations(digits, i))]
+        # print(list(permutations(digits, i)))
+        candidates += list(permutations(digits, i))
         # print(candidates)
 
     for candidate in candidates:
+        # print(type(candidate))
         num_set.add(int(''.join(candidate)))
         # print(num_set)
 
@@ -54,7 +55,7 @@ def is_prime(number):
         return False
 
     for i in range(2, number // 2 + 1):
-        if (number / i) == (number // i):
+        if number % i == 0:
             return False
 
     return True

@@ -16,6 +16,7 @@
 # [6, 10, 2]	6210
 # [3, 30, 34, 5, 9]	9534330
 
+
 def solution(numbers):
     answer = ''
     sorted_list = []
@@ -41,7 +42,7 @@ def solution(numbers):
     # print(sorted_list)
     answer = ''.join(sorted_list)
 
-    return answer
+    return str(int(answer))
 
 def check_same(input, comparison, same_num_str):
     max_len = len(input) if len(input) > len(comparison) else len(comparison)
@@ -64,7 +65,7 @@ def solution2(numbers):
     return str(int(''.join(numbers)))
 
 
-arr1 = [[6, 10, 2], [3, 30, 34, 5, 9], [9,90], [6,69]]
+arr1 = [[6, 10, 2], [3, 30, 34, 345, 5, 9], [9,90], [6,69]]
 return_list = ['6210', '9534330', '990', '696']
 for i in range(len(arr1)):
     if solution2(arr1[i]) == return_list[i]:
