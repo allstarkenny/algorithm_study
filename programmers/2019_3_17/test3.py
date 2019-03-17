@@ -24,20 +24,40 @@ def solution(people, limit):
         if len(people) < 2:
             answer += len(people)
             break
-        if people[0] + people[-1] > limit:
+        start = people[0]
+        end = people.pop()
+        if start + end > limit:
             answer += 1
-            people.pop()
         else:
-            people.pop()
             people.remove(people[0])
             answer += 1
+    return answer
+
+def solution2(people, limit):
+    answer = 0
+    people.sort()
+    start = 0
+    end = len(people)-1
+    while True:
+        # print('{} {}'.format(start, end))
+        if (end - start + 1) < 2:
+            answer += end - start + 1
+            break
+        if people[start] + people[end] > limit:
+            end -= 1
+            answer += 1
+        else:
+            start += 1
+            end -= 1
+            answer += 1
+    # print(answer)
     return answer
 
 arr1 = [[70, 50, 80, 50], [70, 80, 50]]
 arr2 = [100, 100]
 return_list = [3,3]
 for i in range(len(arr1)):
-    if solution(arr1[i], arr2[i]) == return_list[i]:
+    if solution2(arr1[i], arr2[i]) == return_list[i]:
         print('case {} pass --------------'.format(str(i + 1)))
     else:
         print('case {} fail --------------'.format(str(i + 1)))

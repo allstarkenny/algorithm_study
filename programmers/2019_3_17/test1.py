@@ -27,6 +27,7 @@
 # 입출력 예 #3
 # 첫 번째 전화번호, “12”가 두 번째 전화번호 “123”의 접두사입니다. 따라서 답은 false입니다.
 
+
 def solution(phone_book):
     answer = True
     for p in phone_book:
@@ -37,12 +38,55 @@ def solution(phone_book):
                 answer = False
     return answer
 
+def solution2(phone_book):
+    answer = True
+    answer_dict = {}
+    for p in phone_book:
+        if p[0] not in answer_dict.keys():
+            answer_dict[p[0]] = []
+
+        answer_dict[p[0]].append(p[0:])
+
+    loop_break = False
+    while True:
+        local_dict = {}
+        for k in answer_dict.keys():
+            if len(answer_dict[k]) < 2:
+                continue
+
+            local_list = answer_dict[k]
+            for p in local_list:
+                if p[0] not in local_dict.keys():
+                    local_dict[p[0]] = []
+
+                local_dict[p[0]].append(p[1:])
+
+        if len(local_dict) == 0:
+            answer = True
+            break
+
+        for k in local_dict.keys():
+            if len(local_dict[k]) < 2:
+                continue
+
+            if '' in local_dict[k]:
+                loop_break = True
+                print('break!!!')
+                answer = False
+                break
+        if loop_break:
+            break
+
+        answer_dict = local_dict
+
+    return answer
+
 
 arr1 = [['119', '97674223', '1195524421'], ['123','456','789'],
         ['12','123','1235','567','88']]
 return_list = [False, True, False]
 for i in range(len(arr1)):
-    if solution(arr1[i]) == return_list[i]:
+    if solution2(arr1[i]) == return_list[i]:
         print('case {} pass --------------'.format(str(i + 1)))
     else:
         print('case {} fail --------------'.format(str(i + 1)))
