@@ -17,6 +17,7 @@
 # 구명보트의 무게 제한은 40kg 이상 240kg 이하입니다.
 # 구명보트의 무게 제한은 항상 사람들의 몸무게 중 최댓값보다 크게 주어지므로 사람들을 구출할 수 없는 경우는 없습니다.
 
+
 def solution(people, limit):
     answer = 0
     people.sort()
@@ -32,6 +33,7 @@ def solution(people, limit):
             people.remove(people[0])
             answer += 1
     return answer
+
 
 def solution2(people, limit):
     answer = 0
@@ -52,6 +54,7 @@ def solution2(people, limit):
             answer += 1
     # print(answer)
     return answer
+
 
 arr1 = [[70, 50, 80, 50], [70, 80, 50]]
 arr2 = [100, 100]

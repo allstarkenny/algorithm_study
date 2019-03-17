@@ -45,10 +45,12 @@ def solution2(phone_book):
         if p[0] not in answer_dict.keys():
             answer_dict[p[0]] = []
 
-        answer_dict[p[0]].append(p[0:])
+        answer_dict[p[0]].append(p[1:])
 
     loop_break = False
+
     while True:
+        print(answer_dict)
         local_dict = {}
         for k in answer_dict.keys():
             if len(answer_dict[k]) < 2:
@@ -64,8 +66,9 @@ def solution2(phone_book):
         if len(local_dict) == 0:
             answer = True
             break
-
+        print(local_dict)
         for k in local_dict.keys():
+
             if len(local_dict[k]) < 2:
                 continue
 
@@ -82,7 +85,7 @@ def solution2(phone_book):
     return answer
 
 
-arr1 = [['119', '97674223', '1195524421'], ['123','456','789'],
+arr1 = [['119', '91974223', '1195524421'], ['123','456','789'],
         ['12','123','1235','567','88']]
 return_list = [False, True, False]
 for i in range(len(arr1)):

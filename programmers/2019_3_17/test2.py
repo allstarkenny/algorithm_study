@@ -21,6 +21,7 @@
 # 모든 문자열의 길이는 1 이상 20 이하인 자연수이고 알파벳 소문자 또는 '_' 로만 이루어져 있습니다.
 # 스파이는 하루에 최소 한 개의 의상은 입습니다.
 
+
 def solution(clothes):
     answer = 0
     cloth_dict = {}
@@ -35,6 +36,7 @@ def solution(clothes):
         else:
             answer *= (len(cloth_dict[cate]) + 1)
     return answer - 1
+
 
 arr1 = [[['yellow_hat', 'headgear'], ['blue_sunglasses', 'eyewear'], ['green_turban', 'headgear']]]
 return_list = [5]
