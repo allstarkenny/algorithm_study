@@ -11,7 +11,7 @@ import itertools
 
 def solution(board):
     print(board)
-    answer = 1234
+    answer = 0
     if 1 not in itertools.chain.from_iterable(board):
         return 0
 
@@ -21,7 +21,7 @@ def solution(board):
     size = width if height > height else height
 
     print('{} {} {}'.format(width, height, size))
-    for s in range(2, size+1):
+    for s in range(size, 1, -1):
         size_find = False
         print(s)
         for i in range(width - s + 1):
@@ -43,8 +43,8 @@ def solution(board):
                     break
             if size_find:
                 break
-
-
+        if size_find:
+            break
 
     print(answer)
 
