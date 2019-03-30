@@ -18,7 +18,7 @@ def solution(board):
     width = len(board[0])
     height = len(board)
 
-    size = width if height > height else height
+    size = width if height > width else height
 
     print('{} {} {}'.format(width, height, size))
     for s in range(size, 1, -1):
