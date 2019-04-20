@@ -50,3 +50,5 @@ for i in range(len(arr1)):
         print('case {} pass --------------'.format(str(i + 1)))
     else:
         print('case {} fail --------------'.format(str(i + 1)))
+
+# 8min

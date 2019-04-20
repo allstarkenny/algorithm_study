@@ -11,6 +11,7 @@
 # 문자열 s의 길이 : 100,000 이하의 자연수
 # 문자열 s는 '(' 또는 ')' 로만 이루어져 있습니다.
 
+
 def solution(s):
     s_list = list(s)
     stack = []
@@ -27,6 +28,7 @@ def solution(s):
     if len(stack) > 0:
         return False
     return True
+
 
 arr1 = ['()()', ')()(', '(()(', '(())()']
 return_list = [True, False, False, True]

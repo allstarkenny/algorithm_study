@@ -37,30 +37,94 @@
 # 15일 이후부터 29일 이후까지 필요한 밀가루는 15톤이므로 더 이상의 공급은 필요 없습니다.
 # 따라서 총 2회의 밀가루를 공급받으면 됩니다.
 
+
 def solution(stock, dates, supplies, k):
+    if stock >= k:
+        return 0
     answer = 0
-    day = 1
+    day = 0
+    life_status = [[[],stock, 0]]
+    dates.append(k)
+    supplies.append(0)
     for i, d in enumerate(dates):
+
         s = supplies[i]
-
-        stock -= d - day
+        used_stock = d - day
         day = d
-        print('{}일 stock = {}'.format(day, stock))
 
-        remain_supp = supplies[i+1:]
-        next_term = (dates[i+1] if i != len(dates) -1 else k) - day
-        print('끝날때 까지 남은 시간 = {}'.format(k - day))
-        print('다음 텀 = {}'.format(next_term))
-        print('남은 지원 총 량 = {}'.format(sum(remain_supp)))
-        print('if check {} , {}'.format(str(stock - next_term < 0), str(sum(remain_supp) <= k - day)))
-        if stock - next_term < 0 or sum(remain_supp) <= k - day:
-            print('공급!')
-            stock += s
-            answer += 1
-        print('-----------------------------')
+        print('{} 일 - 공급량 {}'.format(d, s))
 
+        # 현재 시점에 받을때와 받지 않을때를 저장
+        local_life_status = []
+
+        for history, st, an in life_status:
+            st -= used_stock
+            if st < 0:
+                continue
+
+            local = history.copy()
+            local.append(True)
+            # 현재 받을때
+            local_life_status.append([local, st + s, an+1])
+
+            local = history.copy()
+            local.append(False)
+            # 현재 받지 않을때
+            local_life_status.append([local, st, an])
+
+        life_status = local_life_status
+        print(life_status)
+
+    answer = life_status[-1][-1]
     print('정답 = {}'.format(answer))
+    print()
     return answer
+
+import heapq
+def solution2(stock, dates, supplies, k):
+    answer = 0
+    h = []
+    day = 0
+    dates.append(k)
+    supplies.append(0)
+    check_num = 0
+
+    if stock >= k:
+        return 0
+    else:
+        for i, d in enumerate(dates):
+            stock -= d - day
+            day = d
+            heapq.heappush(h, -supplies[i])
+            print('{} days remain stock = {}, heapq = {}, answer = {}'.format(d, stock, h, answer))
+
+            if i == len(dates)-1:
+                check_num = -1
+            while stock < check_num:
+                stock += -heapq.heappop(h)
+                print('pop queue : stock = {}'.format(stock))
+                answer += 1
+                if stock >= k-1:
+                    print(answer)
+                    return answer
+
+        # for i in range(0, k):
+        #     if idx < len(dates) and i == dates[idx]:
+        #         heapq.heappush(h, -supplies[idx])
+        #         print(-supplies[idx])
+        #         idx += 1
+        #
+        #     if stock == 0:
+        #         print('stock = 0')
+        #         stock += -heapq.heappop(h)
+        #         answer += 1
+        #         if stock >= k-1:
+        #             return answer
+        #
+        #     stock -=1
+    # print(answer)
+    return answer
+
 
 arr1 = [4, 4, 4]
 arr2 = [[4,10,15], [1, 2, 3, 4], [1,2,3,4]]
@@ -68,7 +132,7 @@ arr3 = [[20,5,10], [16, 1, 1, 1], [10, 40, 30, 20]]
 arr4 = [30, 20, 100]
 return_list = [2, 1, 4]
 for i in range(len(arr1)):
-    if solution(arr1[i], arr2[i], arr3[i], arr4[i]) == return_list[i]:
+    if solution2(arr1[i], arr2[i], arr3[i], arr4[i]) == return_list[i]:
         print('case {} pass --------------'.format(str(i + 1)))
     else:
         print('case {} fail --------------'.format(str(i + 1)))
