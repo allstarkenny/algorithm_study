@@ -22,6 +22,8 @@
 
 def solution(n):
     answer = 0
+    print(bin(n))
+    print(type(bin(n)))
     count = bin(n).count('1')
 
     while True:

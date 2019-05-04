@@ -42,6 +42,7 @@ def solution(land):
 
         print(sum_list)
 
+
     return max(sum_list)
 
 

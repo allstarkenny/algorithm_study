@@ -80,6 +80,7 @@ def solution(stock, dates, supplies, k):
     print()
     return answer
 
+
 import heapq
 def solution2(stock, dates, supplies, k):
     answer = 0
@@ -87,7 +88,6 @@ def solution2(stock, dates, supplies, k):
     day = 0
     dates.append(k)
     supplies.append(0)
-    check_num = 0
 
     if stock >= k:
         return 0
@@ -98,9 +98,9 @@ def solution2(stock, dates, supplies, k):
             heapq.heappush(h, -supplies[i])
             print('{} days remain stock = {}, heapq = {}, answer = {}'.format(d, stock, h, answer))
 
-            if i == len(dates)-1:
-                check_num = -1
-            while stock < check_num:
+            # if i == len(dates)-1:
+            #     check_num = -1
+            while stock < 0:
                 stock += -heapq.heappop(h)
                 print('pop queue : stock = {}'.format(stock))
                 answer += 1
@@ -122,15 +122,15 @@ def solution2(stock, dates, supplies, k):
         #             return answer
         #
         #     stock -=1
-    # print(answer)
+    print(answer)
     return answer
 
 
-arr1 = [4, 4, 4]
-arr2 = [[4,10,15], [1, 2, 3, 4], [1,2,3,4]]
-arr3 = [[20,5,10], [16, 1, 1, 1], [10, 40, 30, 20]]
-arr4 = [30, 20, 100]
-return_list = [2, 1, 4]
+arr1 = [4, 4, 4, 80, 10]
+arr2 = [[4,10,15], [1, 2, 3, 4], [1,2,3,4],[80, 85, 90, 95], [5, 10, 20]]
+arr3 = [[20,5,10], [16, 1, 1, 1], [10, 40, 30, 20], [10,10,10,10], [5, 20, 15]]
+arr4 = [30, 20, 100, 100, 25]
+return_list = [2, 1, 4, 2, 1]
 for i in range(len(arr1)):
     if solution2(arr1[i], arr2[i], arr3[i], arr4[i]) == return_list[i]:
         print('case {} pass --------------'.format(str(i + 1)))
