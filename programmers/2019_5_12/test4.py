@@ -59,10 +59,23 @@ def solution2(s):
             result.append(arr_start)
     return 0 if len(result) > 0 else 1
 
+def solution3(s):
+    s = list(s)
+    result = [s.pop(0)]
+    for ls in s:
+        if len(result) < 1:
+            result.append(ls)
+        elif result[-1] == ls:
+            result.pop()
+        else:
+            result.append(ls)
+
+    return 0 if len(result) > 0 else 1
+
 arr1 = ['baabaa', 'cdcd']
 return_list = [1, 0]
 for i in range(len(arr1)):
-    if solution2(arr1[i]) == return_list[i]:
+    if solution3(arr1[i]) == return_list[i]:
         print('case {} pass --------------'.format(str(i + 1)))
     else:
         print('case {} fail --------------'.format(str(i + 1)))
