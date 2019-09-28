@@ -12,7 +12,6 @@
 # for the last week	For The Last Week
 
 def solution(s):
-
     return ' '.join([s_.capitalize() for s_ in s.split(' ')])
 
 arr1 = ['3people unFollowed me', 'for the last week']

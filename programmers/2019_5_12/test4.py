@@ -59,6 +59,7 @@ def solution2(s):
             result.append(arr_start)
     return 0 if len(result) > 0 else 1
 
+
 def solution3(s):
     s = list(s)
     result = [s.pop(0)]

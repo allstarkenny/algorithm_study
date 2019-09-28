@@ -8,6 +8,9 @@
     <orderEntry type="module" module-name="codingTest" />
     <orderEntry type="module" module-name="kenny_test2" />
     <orderEntry type="module" module-name="googleCloudSource" />
+    <orderEntry type="module" module-name="NewsCateClassificator" />
+    <orderEntry type="module" module-name="train" />
+    <orderEntry type="module" module-name="train" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

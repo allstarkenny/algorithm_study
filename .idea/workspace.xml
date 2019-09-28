@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62088b92-2ce2-4491-a626-e0bee556cdad" name="Default Changelist" comment="">
+      <change afterPath="$USER_HOME$/docker_test/NewsCateClassificator/mockup/apps/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/2019_6_2/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/2019_6_2/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/2019_6_2/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/2019_6_2/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/2019_9_29/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/2019_9_29/test2.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/docker_test/NewsCateClassificator/mockup/Dockerfile" beforeDir="false" afterPath="$USER_HOME$/docker_test/NewsCateClassificator/mockup/Dockerfile" afterDir="false" />
+      <change beforePath="$USER_HOME$/docker_test/NewsCateClassificator/mockup/apps/service.py" beforeDir="false" afterPath="$USER_HOME$/docker_test/NewsCateClassificator/mockup/apps/service.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/docker_test/NewsCateClassificator/mockup/docker_guide.txt" beforeDir="false" afterPath="$USER_HOME$/docker_test/NewsCateClassificator/mockup/docker_guide.txt" afterDir="false" />
       <change beforePath="$USER_HOME$/kenny_test/loadbalancer/load_balancer.py" beforeDir="false" afterPath="$USER_HOME$/kenny_test/loadbalancer/load_balancer.py" afterDir="false" />
       <change beforePath="$USER_HOME$/kenny_test/worker/worker.py" beforeDir="false" afterPath="$USER_HOME$/kenny_test/worker/worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/2019_5_12/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/2019_5_12/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/2019_5_12/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/2019_5_12/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/2019_5_12/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/2019_5_12/test3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programmers/2019_5_12/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/2019_5_12/test4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,40 +33,52 @@
     <session id="-1064965483">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="72" />
+          <entry key="project.closed" value="96" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="18" />
-          <entry key="project.open.time.6" value="18" />
-          <entry key="project.open.time.7" value="13" />
-          <entry key="project.open.time.8" value="8" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="73" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.5" value="22" />
+          <entry key="project.open.time.6" value="25" />
+          <entry key="project.open.time.7" value="18" />
+          <entry key="project.open.time.8" value="12" />
+          <entry key="project.open.time.9" value="8" />
+          <entry key="project.opened" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="192" />
+          <entry key="Dockerfile" value="6" />
+          <entry key="json" value="3" />
+          <entry key="py" value="225" />
+          <entry key="sh" value="1" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="192" />
+          <entry key="Dockerfile" value="5" />
+          <entry key="JSON" value="3" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Dockerfile" value="1615" />
           <entry key="Python Console" value="16" />
-          <entry key="py" value="37766" />
+          <entry key="py" value="43871" />
+          <entry key="txt" value="494" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="37782" />
+          <entry key="Dockerfile" value="1613" />
+          <entry key="PLAIN_TEXT" value="496" />
+          <entry key="Python" value="43887" />
         </counts>
       </usages-collector>
     </session>
@@ -58,37 +86,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programmers/2019_5_12/test1.py">
+        <entry file="file://$PROJECT_DIR$/programmers/2019_6_2/test4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="445">
+              <caret line="38" selection-start-line="38" selection-end-line="47" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programmers/2019_5_12/test2.py">
+        <entry file="file://$PROJECT_DIR$/programmers/2019_9_29/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programmers/2019_5_12/test3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="126">
+              <caret line="28" selection-start-line="28" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <marker date="1569679960429" expanded="true" signature="857:1153" ph="..." />
+                <marker date="1569679960429" expanded="true" signature="1540:1611" ph="..." />
+                <marker date="1569679960429" expanded="true" signature="1609:1611" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/programmers/2019_5_12/test4.py">
+        <entry file="file://$PROJECT_DIR$/programmers/2019_9_29/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+            <state relative-caret-position="380">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/programmers/2018_12_29/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="51" lean-forward="true" selection-start-line="17" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -113,6 +146,12 @@
       <find>print</find>
       <find>times</find>
       <find>sort</find>
+      <find>mecab-ko-dic</find>
+      <find>/dict/danawa</find>
+      <find>self.cate</find>
+      <find>storage</find>
+      <find>bucket</find>
+      <find>아래와 같이 5와 사칙연산만으로 12를</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,32 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/programmers/2019_1_20/test4.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_1_27/test1.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_1_27/test2.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_1_27/test3.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_1_27/test4.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_1_27/test5.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_3/test3.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_3/test4.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_3/test5.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_3/test1.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_3/test2.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_10/test4.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_17/test1.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_17/test2.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_17/test4.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_10/test1.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_10/test2.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_10/test3.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_17/test3.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_17/test5.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_17/test6.py" />
-        <option value="$USER_HOME$/googleCloudSource/styleRecommend/service/worker.py" />
-        <option value="$USER_HOME$/googleCloudSource/styleRecommend/service/cache_batch.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_17/test7.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_24/test1.py" />
-        <option value="$PROJECT_DIR$/programmers/2019_2_24/test2.py" />
         <option value="$PROJECT_DIR$/programmers/2019_2_24/test3.py" />
         <option value="$PROJECT_DIR$/programmers/2019_3_3_2019_3_10/test3.py" />
         <option value="$PROJECT_DIR$/programmers/2019_3_3_2019_3_10/test1.py" />
@@ -169,9 +182,35 @@
         <option value="$PROJECT_DIR$/programmers/2019_5_5/test2.py" />
         <option value="$PROJECT_DIR$/programmers/2019_5_5/test4.py" />
         <option value="$PROJECT_DIR$/programmers/2019_05_12/test1.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_5_12/test1.py" />
         <option value="$PROJECT_DIR$/programmers/2019_5_12/test2.py" />
         <option value="$PROJECT_DIR$/programmers/2019_5_12/test3.py" />
         <option value="$PROJECT_DIR$/programmers/2019_5_12/test4.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_6_2/test2.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_6_2/test3.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_6_2/test1.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_6_2/test4.py" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/docker_test/docker_guide.txt" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/docker_test/Dockerfile" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/docker_test/app.py" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/docker_test/requirements.txt" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/mockup/dpg/tokenizer.py" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/mockup/apps/service_doc2vec.py" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/mockup/requirements.txt" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/mockup/docker_guide.txt" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/mockup/apps/service.py" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/mockup/apps/test.py" />
+        <option value="$USER_HOME$/docker_test/NewsCateClassificator/mockup/Dockerfile" />
+        <option value="$USER_HOME$/docker_test/train/worker/start.sh" />
+        <option value="$USER_HOME$/docker_test/train/Dockerfile" />
+        <option value="$USER_HOME$/docker_test/train/docker_guide.txt" />
+        <option value="$USER_HOME$/docker_test/train/worker/preproc.py" />
+        <option value="$USER_HOME$/docker_test/train/worker/test.py" />
+        <option value="$USER_HOME$/docker_test/train/worker/train.py" />
+        <option value="$USER_HOME$/docker_test/train/dpg/io.py" />
+        <option value="$USER_HOME$/docker_test/train/worker/start.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_9_29/test1.py" />
+        <option value="$PROJECT_DIR$/programmers/2019_9_29/test2.py" />
       </list>
     </option>
   </component>
@@ -201,6 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,25 +257,29 @@
               <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
               <item name="programmers" type="462c0819:PsiDirectoryNode" />
-              <item name="2019_5_5" type="462c0819:PsiDirectoryNode" />
+              <item name="2019_6_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
               <item name="programmers" type="462c0819:PsiDirectoryNode" />
-              <item name="2019_5_12" type="462c0819:PsiDirectoryNode" />
+              <item name="2019_9_29" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kenny/pythonTest/algorithm_study/programmers/2019_1_6/test3.py" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kenny/docker_test/NewsCateClassificator/docker_test/Dockerfile&#10;prime&#9;null&#9;null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/docker_test/NewsCateClassificator/mockup" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -249,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker_test/Dockerfile">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="kenny_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,6 +336,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="docker_test/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="JSONFilePath" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="sourceFilePath" value="../../docker_test/NewsCateClassificator/docker_test/Dockerfile" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Docker.docker_test/Dockerfile" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker_test/Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -321,9 +392,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3819277" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35421687" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.31084338" />
+      <window_info anchor="bottom" id="Docker" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -352,237 +424,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/programmers/2019_1_27/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_1_27/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_1_27/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_1_27/test5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_3/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_3/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_3/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_3/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_3/test5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_10/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_10/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_10/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_10/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/googleCloudSource/styleRecommend/service/worker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="50" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/googleCloudSource/styleRecommend/service/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="32" column="59" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/googleCloudSource/styleRecommend/service/cache_batch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_24/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_17/test7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_17/test5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="974">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_17/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" selection-start-line="36" selection-end-line="42" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_17/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_17/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="47" selection-start-line="47" selection-end-line="55" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_17/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_17/test6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_3_3_2019_3_10/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_3_3_2019_3_10/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="62" selection-start-line="62" selection-end-line="68" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_24/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_24/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_2_24/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_3_3_2019_3_10/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_3_17/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="86" selection-start-line="86" selection-end-line="94" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_3_17/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_3_17/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/programmers/2019_3_24/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -665,9 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="47" selection-start-line="40" selection-end-line="47" />
-          <folding>
-            <marker date="1557017004151" expanded="true" signature="523:724" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,37 +513,256 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding>
-            <marker date="1557004657510" expanded="true" signature="390:395" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/2019_5_12/test1.py">
+    <entry file="file://$USER_HOME$/googleCloudSource/danawaLens/search/search_module.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="704">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/programmers/2019_5_12/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/programmers/2019_5_12/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="374">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_5_12/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/programmers/2019_5_12/test4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        <state relative-caret-position="299">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="81" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_1_13/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_6_2/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_6_2/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_6_2/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="103" column="16" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/kenny/lib/python3.6/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="1597" selection-start-line="1597" selection-end-line="1597" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/docker_test/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/docker_test/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/docker_test/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/docker_test/docker_guide.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/mockup/upheld-beach-248606-43e87188053b.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/mockup/docker_guide.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/mockup/apps/service_doc2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/mockup/dpg/userdic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/mockup/dpg/tokenizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/mockup/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/mockup/apps/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/train/top-branch-253500-2ca7509810ba.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/train/worker/start.sh" />
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/mockup/apps/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/NewsCateClassificator/mockup/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/train/worker/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/train/worker/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/train/docker_guide.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/train/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/train/worker/dump.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/train/dpg/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/train/worker/preproc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/docker_test/train/worker/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_9_29/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="28" selection-start-line="28" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <marker date="1569679960429" expanded="true" signature="857:1153" ph="..." />
+            <marker date="1569679960429" expanded="true" signature="1540:1611" ph="..." />
+            <marker date="1569679960429" expanded="true" signature="1609:1611" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_6_2/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="38" selection-start-line="38" selection-end-line="47" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2018_12_29/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="51" lean-forward="true" selection-start-line="17" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/2019_9_29/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
         </state>
       </provider>
     </entry>

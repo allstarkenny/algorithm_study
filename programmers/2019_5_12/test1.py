@@ -13,7 +13,6 @@
 import numpy as np
 
 def solution(arr1, arr2):
-    print((np.matrix(arr1) * np.matrix(arr2)).tolist())
     return (np.matrix(arr1) * np.matrix(arr2)).tolist()
 
 arr1 = [[[1, 4], [3, 2], [4, 1]], [[2, 3, 2], [4, 2, 4], [3, 1, 4]]]
