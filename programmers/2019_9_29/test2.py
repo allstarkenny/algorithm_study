@@ -29,8 +29,6 @@ def solution(N, number):
     print(S)
     for i in range(2, 9):
         lst = [int(str(N)*i)]
-        print(lst)
-        print('X_i in range({}, {})'.format(0, int(i/2)))
         for X_i in range(0, i // 2):
             print(X_i)
             print('for x in {}'.format(S[X_i]))
@@ -44,7 +42,7 @@ def solution(N, number):
                     if y != 0: lst.append(x // y)
         lst = list(set(lst))
         if number in lst:
-            print(S)
+            # print(S)
             return i
         S.append(lst)
     return -1
